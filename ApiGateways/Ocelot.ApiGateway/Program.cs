@@ -6,10 +6,8 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-	string un;
-	int ab;
-	int hiahioa;
-	double asdu;
+	string message = "Hello You";
+	System.Console.WriteLine(message);
         CreateHostBuilder(args).Build().Run();
     }
 
