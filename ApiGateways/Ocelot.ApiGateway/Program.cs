@@ -6,6 +6,10 @@ public static class Program
 {
     public static void Main(string[] args)
     {
+	string un;
+	int ab;
+	int hiahioa;
+	double asdu;
         CreateHostBuilder(args).Build().Run();
     }
 
