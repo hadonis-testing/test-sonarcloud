@@ -6,6 +6,8 @@ public static class Program
 {
     public static void Main(string[] args)
     {
+	string message = "Hello You";
+	System.Console.WriteLine(message);
         CreateHostBuilder(args).Build().Run();
     }
 
